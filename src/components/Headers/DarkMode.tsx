@@ -14,7 +14,7 @@ function DarkMode() {
   return (
     <button
       onClick={() => setIsDark((prev) => !prev)}
-      className="absolute top-4 right-4 z-50 p-2 rounded-full
+      className="absolute top-5 ltr:right-1/3 rtl:left-1/3 w-fit ltr:sm:right-4 sm:rtl:right-4 z-50 p-2 rounded-full
              bg-white dark:bg-gray-800
              text-gray-800 dark:text-yellow-300
              cursor-pointer

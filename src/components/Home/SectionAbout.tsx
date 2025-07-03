@@ -31,7 +31,7 @@ export const SectionAbout = () => {
           </FadeInWhenVisible>
         </div>
 
-        <div className="grid gap-10 flex-1 pr-10 sm:pr-0">
+        <div className="grid gap-10 flex-1 pr-10 sm:pr-0 ">
           {milestones.map((m, idx) => (
             <FadeInWhenVisible key={idx} direction="bottom" delay={0.3 + idx * 0.2}>
               <Mileston {...m} />

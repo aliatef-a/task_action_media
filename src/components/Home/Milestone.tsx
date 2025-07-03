@@ -15,12 +15,12 @@ export const Mileston = ({ value, unit, caption, offset }: Milestone) => {
       ref={ref}
       className={`border-b border-primary flex-1 ${offset ? "md:mr-40" : ""}`}
     >
-      <div className="flex items-center gap-5 md:gap-10 text-nowrap">
-        <p className="font-bold text-sm sm:text-2xl md:text-4xl bg-primary text-white px-4 py-2 w-fit cut-tl-br -mr-7">
-          <motion.span>{animatedValue}</motion.span>{" "}
-          <span className="text-sm">{unit}</span>
+      <div className="flex items-center gap-10 md:gap-10 text-nowrap">
+        <p className="font-bold text-sm sm:text-2xl md:text-4xl bg-primary text-white text-center px-4 py-2 w-fit cut-tl-br -mr-7">
+          <motion.span className="text-center">{animatedValue}</motion.span>
+          <span className="text-sm ">{unit}</span>
         </p>
-        <p className="text-lg sm:text-xl font-bold text-secandry">{caption}</p>
+        <p className="text-sm text-wrap sm:text-xl font-bold text-secandry">{caption}</p>
       </div>
     </div>
   );
