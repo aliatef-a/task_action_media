@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "01": "About the Fund",
+        "02": "Key Figures",
+        "03": "Local Economic Trends",
+        "04": "Lending Activity",
+        "05": "Fund Strategies",
+        "06": "Digital Transformation & IT",
+        "07": "Human Capital Development",
+        "08": "The Fund Over 50 Years",
+        "09": "Industrial Study",
+        "10": "Lending Statistics"
+    },
+    "center": {
+        "01": [
+            "About SIDF",
+            "Board of Directors",
+            "Organizational Structure",
+            "Message from the Board",
+            "CEO's Statement"
+        ]
+    },
+    "buttons": {
+        "about": "About SIDF",
+        "board": "Board of Directors",
+        "structure": "Organizational Structure",
+        "chairmanMessage": "Chairman's Message",
+        "ceoMessage": "CEO's Message"
+    },
+    "sectionAbout": {
+        "title": "About the Fund",
+        "paragraph": "The Saudi Industrial Development Fund was established in 1394 AH (1974 AD) with an initial capital of 500 million riyals to support the industrial development of the Kingdom's economy by providing medium- and long-term loans to new and existing industrial facilities. Subsequent capital increases gradually increased until it reached 105 billion riyals in 1440 AH (2019 AD). Over the course of 50 years, the Industrial Development Fund has provided industrial support tailored to the needs of each stage by enhancing industrial investment opportunities, developing local industry and raising its performance, developing competitive institutions, and supporting strategic initiatives. It has also expanded the scope of its support to include a number of promising sectors in the fields of industry, energy, mining, and logistics services, thus becoming the primary financial enabler for industrial transformation and contributing to the growth and development of the national economy.",
+        "milestones": [
+            {
+                "value": "105",
+                "unit": "Billion SAR",
+                "caption": "In 2019"
+            },
+            {
+                "value": "20",
+                "unit": "Billion SAR",
+                "caption": "In 2005"
+            },
+            {
+                "value": "500",
+                "unit": "Million SAR",
+                "caption": "Established with initial capital"
+            }
+        ]
+    },
+    "goals": {
+        "title": "Our Strategic Goals",
+        "description": "The Industrial Fund works to...",
+        "cards": [
+            "Improve efficiency and performance of establishments",
+            "Localize industrial supply chains",
+            "Increase local content percentage",
+            "Promote digital transformation in industry",
+            "Foster industrial innovation",
+            "Empower SMEs",
+            "Achieve strategic partnerships",
+            "Develop human capital",
+            "Enhance industrial investment"
+        ]
+    },
+    "about": {
+        "vision": "Vision",
+        "mission": "Mission",
+        "values": "Our Values",
+        "visionText": "An industrial development fund that enables Saudi Arabia to become a leading industrial power and global logistics platform.",
+        "missionText": "An industrial development fund that enables Saudi Arabia to become a leading industrial power and global logistics platform.",
+        "valuesList": [
+            {
+                "title": "Customer Success",
+                "description": "We support our clients' success, as their success is our success."
+            },
+            {
+                "title": "Empowerment",
+                "description": "We strive to empower others so we can work and deliver efficiently together."
+            },
+            {
+                "title": "Collaboration",
+                "description": "We believe collaboration drives better results and enhances shared innovation."
+            },
+            {
+                "title": "Development",
+                "description": "Development is at the heart of what we do and the drive behind our efforts."
+            },
+            {
+                "title": "Reliability",
+                "description": "We are dependable in every task and in the decisions we make."
+            }
+        ]
+    },
+    "score": {
+        "unit": "Billion USD"
+    }
+}

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+html.dark body {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --color-primary: #f0775c;
+  --color-secondary: #559a95;
+  --color-card: #f5f5f5;
+  --color-text1: #000000;
+  --color-text2: #00000099;
+  --color-text3: #ffffff;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #ffffff;
+
+}
+
+::-moz-selection {
+  background: var(--color-primary);
+  color: #ffffff;
+}
+
+.container {
+  @apply mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-32;
+}
+
+.cut-tl-br {
+  --cut: 25px;
+  clip-path: polygon(var(--cut) 0%,
+      100% 0%,
+      100% calc(100% - var(--cut)),
+      calc(100% - var(--cut)) 100%,
+      0% 100%,
+      0% var(--cut));
+}
+
+.Goolcut-tl-br {
+  --cut: 100px;
+  clip-path: polygon(var(--cut) 0%,
+      100% 0%,
+      100% calc(100% - var(--cut)),
+      calc(100% - var(--cut)) 100%,
+      0% 100%,
+      0% var(--cut));
+}
+
+.Goolcut-rtl {
+  --cut: 100px;
+  clip-path: polygon(
+    calc(100% - var(--cut)) 0%,
+    0% 0%,
+    0% calc(100% - var(--cut)),
+    var(--cut) 100%,
+    100% 100%,
+    100% var(--cut)
+  );
+}
+
+
+.Cardcut-tr-bl {
+  --cut: 60px;
+  clip-path: polygon(0% 0%,
+      calc(100% - var(--cut)) 0%,
+      100% var(--cut),
+      100% 100%,
+      var(--cut) 100%,
+      0% calc(100% - var(--cut)));
+}
+
+.img-cut {
+  clip-path: polygon(0 0%,
+      25% 0,
+      75% 0,
+      100% 50%,
+      75% 100%,
+      10% 100%,
+      0% 85%);
+}
+
+.shared-button.inactive {
+  background: #fff;
+  color: #c1c3c5;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, .15));
+}
+
+.shared-button.active {
+  background: var(--btn-primary);
+  color: #fff;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .2));
+}
+
+.shared-button:not(.active):hover {
+  background: var(--btn-primary);
+  color: #fff;
+}
+
+.shared-button:disabled {
+  background: #e5e7eb;
+  color: #6b7280;
+  cursor: not-allowed;
+  filter: none;
+}
+
+.custom-hexgon {
+  clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%);
+}
+
+@theme {
+  --color-primary: #60a534;
+  --color-secandry: #63696d;
+  --shadow-btnLg: "0 8px 12px rgba(0,0,0,.2)";
+  --shadow-btn: "0 4px 8px rgba(0,0,0,.15)";
+}
+
+.clips {
+  clip-path: polygon(0% 50%, 90% 0%, 100% 0%, 100% 100%, 0% 100%)
+}
+
+.drop-shadow-btn {
+  filter: drop-shadow(0 0px 5px rgba(0, 0, 0, 0.25));
+}
+
+.drop-shadow-btnLg {
+  filter: drop-shadow(0 0px 8px rgba(0, 0, 0, 0.35));
+}
